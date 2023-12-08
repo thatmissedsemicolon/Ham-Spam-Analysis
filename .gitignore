@@ -1,0 +1,23 @@
+# Python cache and virtual environment
+__pycache__/
+.venv/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor specific files
+.idea/
+.vscode/
+
+# Build and log files
+build/
+dist/
+*.log
+
+# Ignore environment files
+.env
+
+# Miscellaneous user files
+*.tmp
+notes.txt

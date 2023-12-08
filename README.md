@@ -4,8 +4,8 @@ Ham/Spam Email Analysis
 ## Description
 
 A significant aspect of this application is its advanced ham and spam analysis system. 
-This feature is crucial in maintaining the integrity and quality of the news content. 
-It automatically filters out spam, ensuring that users are presented with only genuine, high-quality news articles. 
+This feature is crucial in maintaining the integrity and quality of the email content. 
+It automatically filters out spam, ensuring that users are presented with only genuine emails. 
 This is achieved through a combination of Python libraries and algorithms specializing in natural language processing and pattern recognition.
 
 ## Libraries

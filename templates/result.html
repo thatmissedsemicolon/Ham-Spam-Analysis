@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Processed Data Results</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.4/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mx-auto mt-5">
+        <h1>Classification Accuracy: {{ accuracy * 100 }}%</h1>
+        <img src="data:image/png;base64,{{ plot_url }}" alt="Spam vs Ham Analysis">
+    </div>
+</body>
+</html>

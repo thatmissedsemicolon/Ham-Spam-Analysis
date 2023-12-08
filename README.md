@@ -20,11 +20,11 @@ This is achieved through a combination of Python libraries and algorithms specia
 
 1. Install the environment and libraries required
    ```sh
-   python3 -m venv .venv && pip install -r requirements.txt
+   python3 -m venv .venv && . .venv/bin/activate && pip install -r requirements.txt
    ``` 
 2. Start the server
    ```sh
-   python3 app.py
+   . .venv/bin/activate && python3 app.py
    ``` 
 3. Access the app 
    ```sh
